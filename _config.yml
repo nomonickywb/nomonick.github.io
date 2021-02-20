@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 3d3bf26cb0a3fdba6acb                            #生成的clientID
-  clientSecret: 28d63760274438967ca1653f6b6ef1cc27e52767    #生成的clientSecret
+  clientID: e3c692416cc44267f18d                            #生成的clientID
+  clientSecret: 5f08e0cf1abf7b40bde920975e815af435b0e725    #生成的clientSecret
   repo: qiubaiying.github.io   #仓库名称
   owner: nomonickywb    #github用户名
   admin: nomonickywb
