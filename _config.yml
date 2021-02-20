@@ -61,14 +61,14 @@ kramdown:
 
 
 # Gitalk
-# gitalk:
-#  enable: true    #是否开启Gitalk评论
-#  clientID: 3d3bf26cb0a3fdba6acb                            #生成的clientID
-#  clientSecret: 28d63760274438967ca1653f6b6ef1cc27e52767    #生成的clientSecret
-#  repo: https://github.com/nomonickywb/nomonickywb.github.io/tree/master/_posts    #仓库名称
-#  owner: nomonickywb    #github用户名
-#  admin: nomonickywb
-#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: e141814174698a356560                            #生成的clientID
+  clientSecret: 5301f37cf3de7f405652861145dd818d9251ca65    #生成的clientSecret
+  repo: https://nomonickywb.github.io    #仓库名称
+  owner: nomonickywb    #github用户名
+  admin: nomonickywb
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
