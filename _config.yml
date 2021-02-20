@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "nomonick, nomonick Blog, 杨文宾的博客, nomonickywb, 杨文宾, yangwnebin"
 url: "http://nomonick.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/nomonickywb/nomonick.github.io" # you code repository
+github_repo: "https://github.com/nomonickywb/nomonickywb.github.io/tree/master/_posts" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -74,7 +74,7 @@ gitalk:
 #  enable: true    #是否开启Gitalk评论
 #  clientID: 3d3bf26cb0a3fdba6acb                            #生成的clientID
 #  clientSecret: 28d63760274438967ca1653f6b6ef1cc27e52767    #生成的clientSecret
-#  repo: nomonickywb.github.io    #仓库名称
+#  repo: https://github.com/nomonickywb/nomonickywb.github.io/tree/master/_posts    #仓库名称
 #  owner: nomonickywb    #github用户名
 #  admin: nomonickywb
 #  distractionFreeMode: true #是否启用类似FB的阴影遮罩
