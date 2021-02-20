@@ -68,12 +68,12 @@ kramdown:
     var gitalk = new Gitalk({
 
     // gitalk的主要参数
-		clientID: `3d3bf26cb0a3fdba6acb`,
-		clientSecret: `28d63760274438967ca1653f6b6ef1cc27e52767`,
-		repo: `http://nomonick.github.io`,
-		owner: 'nomonickywb',
-		admin: ['nomonickywb'],
-		id: 'window.location.pathname',
+        clientID: `3d3bf26cb0a3fdba6acb`,
+        clientSecret: `28d63760274438967ca1653f6b6ef1cc27e52767`,
+        repo: `http://nomonick.github.io`,
+        owner: 'nomonickywb',
+        admin: ['nomonickywb'],
+        id: 'window.location.pathname',
     
     });
     gitalk.render('gitalk-container');
