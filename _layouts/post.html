@@ -84,21 +84,20 @@ layout: default
 
                 <!--Gitalk评论start  -->
                 <!-- 引入Gitalk评论插件  -->
-                <link rel="stylesheet" href="https://github.com/nomonickywb/nomonickywb.github.io/blob/master/css/gitalk.css">
-                <script src="https://github.com/nomonickywb/nomonickywb.github.io/blob/master/js/gitalk.min.js"></script>
-                <!-- gitalk评论框 -->
-		{% if site.gitalk %}
-		<div class="comment">
-		{% include comments.html %}
-		</div>
-                {% endif %}
-                <!-- Gitalk end -->
-
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
+		<div id="gitmentContainer"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script>
+		var gitment = new Gitment({
+		    owner: 'nomonickywb',
+		    repo: 'blog-comments',
+		    oauth: {
+		        client_id: ' 39fa47fd7652db373bb4',
+		        client_secret: 'bf947e0a9dfa415fd5f0dad725eb237e87e89049',
+    			},
+		});
+		gitment.render('gitmentContainer');
+		</script>
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
