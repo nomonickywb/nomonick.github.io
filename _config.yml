@@ -102,7 +102,7 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#EBE7E6"
+chrome-tab-theme-color: "#CCCCCC"
 service-worker: true
 
 
