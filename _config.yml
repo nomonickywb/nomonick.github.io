@@ -69,7 +69,7 @@ gitalk:
   owner: nomonickywb    #github用户名
   admin: nomonickywb
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-  id: location.pathname  
+  id: window.location.pathname  
   
 
 # Gitalk
