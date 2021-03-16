@@ -63,9 +63,9 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: eedbe050886360601ee2                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: blog-comments    #仓库名称
+  clientID: de407b46ab4765e8de4b                            #生成的clientID
+  clientSecret: bc4c4e5c8f2d2274db6e4c45770c963cfa58578c    #生成的clientSecret
+  repo: nomonickywb.github.io    #仓库名称
   owner: nomonickywb    #github用户名
   admin: nomonickywb
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
